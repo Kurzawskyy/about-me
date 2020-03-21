@@ -1,0 +1,60 @@
+body
+{
+    background-color: lightblue;
+}
+
+
+.container
+{
+    width: 1000px;
+    margin: auto;
+    min-height: 900px;
+}
+
+.title
+{
+    width: 980px;
+    min-height: 100px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu
+{
+    width: 1000px;
+    height: 60px;
+    background-color:gray;
+    margin-top: 10px;
+}
+
+.button
+{
+    height: 40px;
+    width: 300px;
+    border-right: 3px dotted black;
+    color: whitesmoke;  
+    float: left; 
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.button:hover
+{
+    background-color: white;
+    color: black;
+    border-bottom: 3px dotted white;
+    cursor: pointer;
+
+}
+
+.article
+{
+    width: 992px;
+    min-height: 742px;
+    border: 4px dotted black;
+    margin-top: 10px;
+    font-size: 30px;
+}
